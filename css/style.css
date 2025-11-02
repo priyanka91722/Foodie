@@ -476,8 +476,13 @@ h3 {
         var(--shadow-strong) 8px 8px 8px,
         var(--shadow-strong) 8px 8px 8px inset;
     transition: all 0.5s ease-in-out;
-    padding: 0 1rem 2rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     position: relative;
+}
+
+.order-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px 5px rgba(233, 120, 79, 0.514);
 }
 
 /* Favorite heart button on cards */
@@ -510,18 +515,18 @@ h3 {
 }
 
 .order-card img {
-    width: 15rem;
+    width: 10rem;
     filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 10px 10px);
 }
 
 h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: var(--text-primary);
     transition: color 0.3s ease;
 }
 
 .price {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 1.3rem 0 2rem 0;
     color: var(--gold-finger);
 }
@@ -533,7 +538,7 @@ h4 {
     position: fixed;
     inset: 0 -500 0 auto;
     width: 25rem;
-    padding-block: 2rem;
+    padding-block: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
