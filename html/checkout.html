@@ -471,6 +471,30 @@
         description: "Order Payment",
         handler: function (response) {
           console.log("Payment Success:", response);
+
+          // Save order to localStorage
+          const orderId = "FD" + Date.now().toString().slice(-8);
+          const order = {
+            id: orderId,
+            items: cartData,
+            total: parseFloat(document.getElementById("finalTotal").textContent.replace(/[₹$]/g, "")),
+            timestamp: new Date().toISOString(),
+            status: "Pending",
+            deliveryInfo: {
+              fullName: document.getElementById("fullName").value,
+              email: document.getElementById("email").value,
+              phone: document.getElementById("phone").value,
+              address: document.getElementById("address").value,
+              city: document.getElementById("city").value,
+              zipCode: document.getElementById("zipCode").value,
+              notes: document.getElementById("notes").value
+            }
+          };
+
+          const existingOrders = JSON.parse(localStorage.getItem("foodie:orders") || "[]");
+          existingOrders.push(order);
+          localStorage.setItem("foodie:orders", JSON.stringify(existingOrders));
+
           document.getElementById("successModal").classList.add("active");
           sessionStorage.removeItem("checkoutCart");
         },
