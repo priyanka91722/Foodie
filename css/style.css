@@ -330,6 +330,30 @@ header .navbar.wrapper {
     color: var(--gold-finger);
 }
 
+/* LANGUAGE SELECTOR STYLING */
+.language-selector select {
+    background: var(--gold-finger);
+    color: var(--lead);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    font-family: inherit;
+}
+
+.language-selector select:hover {
+    background: var(--lead);
+    color: var(--pure-while);
+    transform: scale(1.05);
+}
+
+.language-selector select:focus {
+    box-shadow: 0 0 0 2px rgba(242, 189, 18, 0.5);
+}
+
 .mobile-theme-toggle {
     width: auto;
     padding: 0.8rem 1.5rem;
