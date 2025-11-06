@@ -30,6 +30,27 @@
 
 </head>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('.hamberger');
+    const nav = document.querySelector('nav.navbar');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    if (hamburger && nav && mobileMenu) {
+      hamburger.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Toggle mobile menu visibility
+        mobileMenu.classList.toggle('active');
+
+        // Toggle the "menu-open" class on <nav> to control the search visibility
+        nav.classList.toggle('menu-open');
+      });
+    }
+  });
+</script>
+
+
 <body>
     <!-- UNIVERSAL NAVBAR -->
     <header>
@@ -39,7 +60,6 @@
             <!-- DESKTOP MENU -->
             <ul class="navList flex gap-3 between">
                 <li><a class="active" href="./index.html#home" data-i18n="nav.home">Home</a></li>
-                <li><a href="./index.html#services" data-i18n="nav.services">Services</a></li>
                 <li><a href="./menu.html" data-i18n="nav.menu">Menu</a></li>
                 <li><a href="./aboutUs.html" data-i18n="nav.about">About Us</a></li>
                 <li><a href="./contactUs.html" data-i18n="nav.contact">Contact Us</a></li>
@@ -55,7 +75,7 @@
                 </div>
 
                 <!-- Search Input -->
-                <form class="navbar-search" action="#" method="get">
+                <form class="navbar-search hidden-search" action="#" method="get">
                     <input type="text" name="search" id="navbar-search" data-i18n="[placeholder]nav.searchPlaceholder"
                         aria-label="Search menu items">
                     <button type="submit" id="navbar-search-btn" data-i18n-aria-label="nav.search">
