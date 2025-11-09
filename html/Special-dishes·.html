@@ -31,7 +31,7 @@
       font-family: 'Poppins', sans-serif;
       background: var(--bg);
       color: var(--text);
-      transition: background 0.3s ease, color 0.3s ease;
+      background : 0.3s ease, color 0.3s ease;
     }
 
     header {
@@ -56,17 +56,17 @@
     }
 
     main {
-      max-width: 1200px;
-      margin: 50px auto;
-      padding: 0 20px;
+      max-width: 1400px;
+      margin: 30px auto;
+      padding: 0 18px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 25px;
+      gap: 85px;
     }
 
     .dish-card {
       background: var(--card);
-      border-radius: 18px;
+      border-radius: 28px;
       overflow: hidden;
       box-shadow: 0 10px 25px rgba(0,0,0,0.05);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -111,8 +111,24 @@
       background: var(--header-bg);
       border-top-left-radius: 30px;
       border-top-right-radius: 30px;
-      margin-top: 60px;
+      margin-top: 100px;
     }
+
+    [data-theme="light"] header {
+  background: #ffed96; 
+  border-bottom: 1px solid #f4d03f;
+}
+    [data-theme="dark"] footer {
+      background: #444444; 
+      border-bottom: 1px solid #f4d03f;
+    }
+
+    @media (max-width: 600px) {
+  footer {
+    margin-top: 90px;
+  }
+}
+
 
     #themeToggle {
       position: fixed;
@@ -143,44 +159,57 @@
 
   <main>
     <div class="dish-card">
-      <img src="../imgs/fi1.png" alt="Truffle Mushroom Risotto">
+      <img src="../imgs/Truffle Mushroom Risotto.jpg" alt="Truffle Mushroom Risotto">
       <div class="dish-info">
         <h2>Truffle Mushroom Risotto</h2>
-        <p>Creamy arborio rice with earthy truffles and wild mushrooms — a winter delicacy that comforts every soul.</p>
+        <p>Arborio rice, rich, velvety, and kissed by earthy truffles, in a creamy, slow-stirred embrace.
+ Long after the bite, each spoon melts into layers of wild mushroom silk and a hint of butter.</p>
       </div>
     </div>
 
     <div class="dish-card">
-      <img src="../imgs/fi2.png" alt="Citrus Basil Salmon">
+      <img src="../imgs/salmon.png" alt="Citrus Basil Salmon">
       <div class="dish-info">
         <h2>Citrus Basil Salmon</h2>
-        <p>Fresh salmon glazed with tangy citrus and topped with basil — bright and refreshing for sunny summer days.</p>
+        <p>Soft at the centre, crisped at the edge, this tender fillet flakes like morning light.
+ Fresh basil adds a cool note at the end, and the citrus tang cuts through the buttery depth.</p>
       </div>
     </div>
 
     <div class="dish-card">
-      <img src="../imgs/fi3.png" alt="Pumpkin Sage Ravioli">
+      <img src="../imgs/Pumpkin Sage Ravioli.jpg" alt="Pumpkin Sage Ravioli">
       <div class="dish-info">
         <h2>Pumpkin Sage Ravioli</h2>
-        <p>Golden pasta pockets filled with roasted pumpkin purée, tossed in sage-infused butter — fall perfection.</p>
+        <p>Warm sage aroma envelops pillowy pasta pockets with a soft, nutty pumpkin filling.
+ Like autumn folded into dough, each bite transitions from soft and buttery to slightly crisp.</p>
       </div>
     </div>
 
     <div class="dish-card">
-      <img src="../imgs/fi4.png" alt="Berry Cheesecake Jar">
+      <img src="../imgs/fi5.png" alt="Berry Cheesecake Jar">
       <div class="dish-info">
         <h2>Berry Cheesecake Jar</h2>
-        <p>Layered mini cheesecake with fresh berries and vanilla cream — a spring delight in every spoonful.</p>
+        <p>A multi-layered dream, with crumbly biscuit calm at the bottom, cloud-like vanilla cream humming in the middle, and tart berry compote bursting at the top.  Each texture-sweet, tangy, and creamy has a function.</p>
       </div>
     </div>
 
     <div class="dish-card">
-      <img src="../imgs/fi5.png" alt="Chocolate Lava Cake">
+      <img src="../imgs/chocolate-lava-cake.png" alt="Chocolate Lava Cake">
       <div class="dish-info">
         <h2>Chocolate Lava Cake</h2>
-        <p>Warm, gooey chocolate cake with a molten heart — timeless and comforting all year round.</p>
+        <p>A molten river of dark, smooth chocolate is revealed as the crust crackles beneath the spoon.
+ Impossibly decadent, soft, and gooey, like dessert masquerading as warmth.</p>
       </div>
     </div>
+
+    <div class="dish-card">
+  <img src="../imgs/Caramel Pudding.jpg" alt="Caramel Pudding">
+  <div class="dish-info">
+    <h2>Caramel Pudding</h2>
+    <p>The custard is golden and glossy, and it trembles when touched. It is dense under the spoon but airy.  A smooth sweetness that hums like nostalgia is left behind when the caramel glaze melts into a buttery echo.</p>
+  </div>
+</div>
+
   </main>
 
   <footer>
