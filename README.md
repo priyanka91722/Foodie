@@ -96,6 +96,28 @@ This site’s entry file is at `html/index.html`. To use GitHub Pages:
 
 <img src="https://github.com/Mayur-Pagote/README_Design_Kit/blob/730d340c8008758ac291ebc555f818f851feda0f/Assets/RGB%20Line%20Thick.gif" width="100%" />
 
+
+## 🧪 Running Tests
+
+This project uses [Jest](https://jestjs.io/) for unit testing JavaScript modules.
+
+To run all tests:
+
+```bash
+npm test
+```
+
+To see detailed output for each test (test names and results), run:
+
+```bash
+npm test -- --verbose
+```
+
+This will show the name and result of every test, making it easier to debug and understand the test coverage.
+
+Test files are located in the `tests/` directory. You can add more tests for other modules as needed.
+
+
 ## 🤝 Contributing
 
 We ❤️ **open-source contributions**!
@@ -205,6 +227,3 @@ If you found this helpful:
 
 > “Good food brings people together — so does open source.” 🍕💻
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
-
-
