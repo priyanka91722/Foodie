@@ -29,47 +29,7 @@ Designed for performance, accessibility, and user delight — it offers an effor
 | **Deployment**          | Hosted on **GitHub Pages** for free, fast delivery |
 
 <img src="https://github.com/Mayur-Pagote/README_Design_Kit/blob/730d340c8008758ac291ebc555f818f851feda0f/Assets/RGB%20Line%20Thick.gif" width="100%" />
----
-## 📁 FOLDER STRUCTURE-
-Foodie/
-├── html/                   # Main HTML files (entry points)
-│   ├── index.html
-│   └── other-pages.html
-│
-├── css/                    # Styles
-│   ├── base/
-│   ├── components/
-│   └── layouts/
-│
-├── js/                     # JavaScript code
-│   ├── components/
-│   ├── services/            # API / external data interaction (if any)
-│   ├── utils/
-│   └── main.js
-│
-├── imgs/                   # Images / icons / assets
-│   ├── food/
-│   └── ui/
-│
-├── locales/                # For translations / i18n if used
-│   └── en.json
-│
-├── docs/                   # Documentation folder
-│   └── architecture.md
-│
-├── tests/                  # Tests, if you want to add JS tests later
-│   ├── unit/
-│   └── integration/
-│
-├── .vscode/                 # Editor configs (already present)
-│
-├── .gitignore
-├── README.md
-├── TODO.md
-├── products.json            # Data file (already present)
-└── LICENSE
 
----
 ## ✨ Key Features
 
 ✅ **Fully Responsive** — Works seamlessly on mobile, tablet, and desktop.
