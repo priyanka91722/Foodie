@@ -68,6 +68,7 @@ function loadFooter() {
             </div>
         </div>
 
+        document.getElementById('footer-placeholder').innerHTML = footerHTML;
     `;
 
     const footerElement = document.getElementById('contacts');
