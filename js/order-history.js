@@ -88,3 +88,12 @@
   // Initialize when DOM is ready
   document.addEventListener('DOMContentLoaded', loadOrders);
 })();
+
+function placeOrder() {
+  if (!navigator.onLine) {
+    alert(window.i18n.translations["offline.banner"]);
+    return;
+  }
+
+  // normal order logic
+}

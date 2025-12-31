@@ -84,9 +84,13 @@
                         English
                     </div>
                     <ul class="options" role="listbox" tabindex="-1">
-                        <li data-value="en" role="option" aria-selected="true">English</li>
-                        <li data-value="hi" role="option">हिंदी</li>
-                    </ul>
+  <li data-value="en" role="option" aria-selected="true">English</li>
+  <li data-value="hi" role="option">हिंदी</li>
+  <li data-value="mr" role="option">मराठी</li>
+  <li data-value="ta" role="option">தமிழ்</li>
+  <li data-value="gu" role="option">ગુજરાતી</li>
+</ul>
+
                 </div>
 
                 <form class="navbar-search" action="#" method="get">
@@ -428,6 +432,9 @@
     <script src="../js/cursor.js"></script>
     <script>
         // Prevent navigation when offline
+
+    <div id="offline-banner" data-i18n="offline.banner" hidden></div>
+
         document.addEventListener('click', function (e) {
             if (!navigator.onLine) {
                 const link = e.target.closest('a');

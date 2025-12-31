@@ -2180,3 +2180,14 @@
 [data-theme="dark"] .partner-form select {
     padding-right: 34px !important;
 }
+
+#offline-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ff5252;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  z-index: 1000;
+}

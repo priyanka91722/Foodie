@@ -1004,3 +1004,23 @@ const restoreCartFromStorage = () => {
         });
     }
 };
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/service-worker.js")
+    .catch(err => console.error("SW registration failed", err));
+}
+
+const banner = document.getElementById("offline-banner");
+
+function updateOnlineStatus() {
+  if (!navigator.onLine) {
+    banner.hidden = false;
+  } else {
+    banner.hidden = true;
+  }
+}
+
+window.addEventListener("online", updateOnlineStatus);
+window.addEventListener("offline", updateOnlineStatus);
+
+document.addEventListener("DOMContentLoaded", updateOnlineStatus);
