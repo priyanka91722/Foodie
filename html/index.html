@@ -582,6 +582,44 @@
         })();
     </script>
     <script src="../js/language-dropdown.js"></script>
+
+    <div id="offline-banner"
+     style="
+       position:fixed;
+       bottom:0;
+       width:100%;
+       background:#b71c1c;
+       color:white;
+       text-align:center;
+       padding:10px;
+       font-weight:bold;
+       display:none;
+       z-index:9999;">
+  You are offline
+</div>
+
+    <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js");
+  }
+</script>
+
+<script>
+  const banner = document.getElementById("offline-banner");
+
+  function updateStatus() {
+    if (navigator.onLine) {
+      banner.style.display = "none";
+    } else {
+      banner.style.display = "block";
+    }
+  }
+
+  window.addEventListener("online", updateStatus);
+  window.addEventListener("offline", updateStatus);
+  updateStatus();
+</script>
+
 </body>
 
 </html>

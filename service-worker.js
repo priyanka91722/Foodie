@@ -23,3 +23,15 @@ self.addEventListener("fetch", event => {
     fetch(event.request).catch(() => caches.match(event.request))
   );
 });
+
+self.addEventListener("install", () => {
+  self.skipWaiting();
+});
+
+self.addEventListener("activate", () => {
+  self.clients.claim();
+});
+
+self.addEventListener("fetch", () => {
+  // no-op, we only want online/offline control
+});
