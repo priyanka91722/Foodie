@@ -214,7 +214,7 @@
   "name": "Kerala Appam with Veg Stew",
   "type": "veg",
   "price": "179",
-  "image": "../imgs/appam.webp",
+  "image": "../imgs/appam (1).webp",
   "description": "Soft appams paired with a mildly spiced coconut-based vegetable stew.",
   "rating": 4.5,
   "cuisine": "South Indian"
@@ -224,7 +224,7 @@
   "name": "Goan Fish Curry Rice",
   "type": "non-veg",
   "price": "229",
-  "image": "../imgs/goan-fish.webp",
+  "image": "../imgs/goan-fish (1).webp",
   "description": "Tangy and spicy Goan-style fish curry served with steamed rice.",
   "rating": 4.7,
   "cuisine": "Seafood"
