@@ -198,5 +198,195 @@
     "description": "Fragrant broth with rice noodles, tender beef slices, and fresh herbs.",
     "rating": 4.5,
     "cuisine": "Vietnamese"
-  }
+  },
+{
+  "id": 22,
+  "name": "Rajasthani Dal Baati Churma",
+  "type": "veg",
+  "price": "189",
+  "image": "../imgs/dal-baati.webp",
+  "description": "Traditional Rajasthani dish served with baked wheat balls, spiced dal, and sweet churma.",
+  "rating": 4.6,
+  "cuisine": "Indian"
+},
+{
+  "id": 23,
+  "name": "Kerala Appam with Veg Stew",
+  "type": "veg",
+  "price": "179",
+  "image": "../imgs/appam.webp",
+  "description": "Soft appams paired with a mildly spiced coconut-based vegetable stew.",
+  "rating": 4.5,
+  "cuisine": "South Indian"
+},
+{
+  "id": 24,
+  "name": "Goan Fish Curry Rice",
+  "type": "non-veg",
+  "price": "229",
+  "image": "../imgs/goan-fish.webp",
+  "description": "Tangy and spicy Goan-style fish curry served with steamed rice.",
+  "rating": 4.7,
+  "cuisine": "Seafood"
+},
+{
+  "id": 25,
+  "name": "Japanese Chicken Katsu",
+  "type": "non-veg",
+  "price": "249",
+  "image": "../imgs/chicken-katsu.webp",
+  "description": "Breaded and fried chicken cutlet served with Japanese-style sauce.",
+  "rating": 4.6,
+  "cuisine": "Japanese"
+},
+{
+  "id": 26,
+  "name": "Moroccan Chickpea Tagine",
+  "type": "veg",
+  "price": "209",
+  "image": "../imgs/tagine.webp",
+  "description": "Slow-cooked chickpeas with vegetables and Moroccan spices.",
+  "rating": 4.5,
+  "cuisine": "Moroccan"
+},
+{
+  "id": 27,
+  "name": "Lebanese Chicken Shawarma Plate",
+  "type": "non-veg",
+  "price": "239",
+  "image": "../imgs/shawarma-plate.webp",
+  "description": "Spiced grilled chicken served with rice, hummus, and garlic sauce.",
+  "rating": 4.7,
+  "cuisine": "Middle Eastern"
+},
+{
+  "id": 28,
+  "name": "Greek Spanakopita",
+  "type": "veg",
+  "price": "169",
+  "image": "../imgs/spanakopita.webp",
+  "description": "Flaky pastry filled with spinach and feta cheese.",
+  "rating": 4.3,
+  "cuisine": "Greek"
+},
+{
+  "id": 29,
+  "name": "Turkish Lamb Kofta",
+  "type": "non-veg",
+  "price": "259",
+  "image": "../imgs/kofta.webp",
+  "description": "Grilled minced lamb kebabs seasoned with Turkish spices.",
+  "rating": 4.6,
+  "cuisine": "Turkish"
+},
+{
+  "id": 30,
+  "name": "Ethiopian Veg Injera Platter",
+  "type": "veg",
+  "price": "219",
+  "image": "../imgs/injera.webp",
+  "description": "Traditional injera served with assorted Ethiopian vegetable curries.",
+  "rating": 4.4,
+  "cuisine": "Ethiopian"
+},
+{
+  "id": 31,
+  "name": "Peruvian Chicken with Aji Sauce",
+  "type": "non-veg",
+  "price": "249",
+  "image": "../imgs/peruvian-chicken.webp",
+  "description": "Roasted chicken served with spicy Peruvian aji verde sauce.",
+  "rating": 4.6,
+  "cuisine": "Peruvian"
+},
+{
+  "id": 32,
+  "name": "Spanish Vegetable Paella",
+  "type": "veg",
+  "price": "229",
+  "image": "../imgs/veg-paella.webp",
+  "description": "Saffron-infused rice cooked with seasonal vegetables.",
+  "rating": 4.5,
+  "cuisine": "Spanish"
+},
+{
+  "id": 33,
+  "name": "Indonesian Nasi Goreng",
+  "type": "non-veg",
+  "price": "219",
+  "image": "../imgs/nasi-goreng.webp",
+  "description": "Indonesian-style fried rice with chicken, egg, and spices.",
+  "rating": 4.6,
+  "cuisine": "Indonesian"
+},
+{
+  "id": 34,
+  "name": "Russian Mushroom Stroganoff",
+  "type": "veg",
+  "price": "199",
+  "image": "../imgs/stroganoff.webp",
+  "description": "Creamy mushroom-based stroganoff served with rice.",
+  "rating": 4.4,
+  "cuisine": "Russian"
+},
+{
+  "id": 35,
+  "name": "Brazilian Feijoada",
+  "type": "non-veg",
+  "price": "269",
+  "image": "../imgs/feijoada.webp",
+  "description": "Slow-cooked black beans with pork and smoked meats.",
+  "rating": 4.7,
+  "cuisine": "Brazilian"
+},
+{
+  "id": 36,
+  "name": "Nepalese Veg Thukpa",
+  "type": "veg",
+  "price": "179",
+  "image": "../imgs/thukpa.webp",
+  "description": "Hearty noodle soup with vegetables and Himalayan spices.",
+  "rating": 4.5,
+  "cuisine": "Nepalese"
+},
+{
+  "id": 37,
+  "name": "Afghani Chicken Korma",
+  "type": "non-veg",
+  "price": "239",
+  "image": "../imgs/afghani-korma.webp",
+  "description": "Creamy cashew-based chicken curry with subtle spices.",
+  "rating": 4.6,
+  "cuisine": "Afghani"
+},
+{
+  "id": 38,
+  "name": "Sri Lankan Hopper Curry",
+  "type": "veg",
+  "price": "189",
+  "image": "../imgs/hopper.webp",
+  "description": "Crispy rice hoppers served with coconut vegetable curry.",
+  "rating": 4.4,
+  "cuisine": "Sri Lankan"
+},
+{
+  "id": 39,
+  "name": "Malaysian Chicken Rendang",
+  "type": "non-veg",
+  "price": "259",
+  "image": "../imgs/rendang.webp",
+  "description": "Slow-cooked chicken in a rich, spiced coconut gravy.",
+  "rating": 4.8,
+  "cuisine": "Malaysian"
+},
+{
+  "id": 40,
+  "name": "Hungarian Veg Goulash",
+  "type": "veg",
+  "price": "199",
+  "image": "../imgs/goulash.webp",
+  "description": "Hearty vegetable stew flavored with Hungarian paprika.",
+  "rating": 4.3,
+  "cuisine": "Hungarian"
+}
 ]
