@@ -211,13 +211,13 @@
 },
 {
   "id": 23,
-  "name": "Kerala Appam with Veg Stew",
+  "name": "Vada-Pav",
   "type": "veg",
-  "price": "179",
-  "image": "../imgs/appam (1).webp",
-  "description": "Soft appams paired with a mildly spiced coconut-based vegetable stew.",
+  "price": "25",
+  "image": "../imgs/Vada-Pav.webp",
+  "description": "Soft vada and pav served with chilli and chutneys.",
   "rating": 4.5,
-  "cuisine": "South Indian"
+  "cuisine": "Indian"
 },
 {
   "id": 24,
@@ -351,13 +351,13 @@
 },
 {
   "id": 37,
-  "name": "Afghani Chicken Korma",
-  "type": "non-veg",
-  "price": "239",
-  "image": "../imgs/afghani-korma.webp",
-  "description": "Creamy cashew-based chicken curry with subtle spices.",
+  "name": "Sev Puri",
+  "type": "veg",
+  "price": "119",
+  "image": "../imgs/sev-puri.webp",
+  "description": "Crispy puris topped with sev, chutneys, and spicy potato salad.",
   "rating": 4.6,
-  "cuisine": "Afghani"
+  "cuisine": "Indian"
 },
 {
   "id": 38,
