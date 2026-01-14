@@ -244,7 +244,7 @@
   "name": "Moroccan Chickpea Tagine",
   "type": "veg",
   "price": "209",
-  "image": "../imgs/tagine.webp",
+  "image": "../imgs/chickpeas.webp",
   "description": "Slow-cooked chickpeas with vegetables and Moroccan spices.",
   "rating": 4.5,
   "cuisine": "Moroccan"
@@ -254,7 +254,7 @@
   "name": "Lebanese Chicken Shawarma Plate",
   "type": "non-veg",
   "price": "239",
-  "image": "../imgs/shawarma-plate.webp",
+  "image": "../imgs/lebanese.webp",
   "description": "Spiced grilled chicken served with rice, hummus, and garlic sauce.",
   "rating": 4.7,
   "cuisine": "Middle Eastern"
@@ -274,7 +274,7 @@
   "name": "Turkish Lamb Kofta",
   "type": "non-veg",
   "price": "259",
-  "image": "../imgs/kofta.webp",
+  "image": "../imgs/lamb-kofta.webp",
   "description": "Grilled minced lamb kebabs seasoned with Turkish spices.",
   "rating": 4.6,
   "cuisine": "Turkish"
@@ -304,7 +304,7 @@
   "name": "Spanish Vegetable Paella",
   "type": "veg",
   "price": "229",
-  "image": "../imgs/veg-paella.webp",
+  "image": "../imgs/paella.webp",
   "description": "Saffron-infused rice cooked with seasonal vegetables.",
   "rating": 4.5,
   "cuisine": "Spanish"
@@ -334,7 +334,7 @@
   "name": "Brazilian Feijoada",
   "type": "non-veg",
   "price": "269",
-  "image": "../imgs/feijoada.webp",
+  "image": "../imgs/Feijoada.webp",
   "description": "Slow-cooked black beans with pork and smoked meats.",
   "rating": 4.7,
   "cuisine": "Brazilian"
